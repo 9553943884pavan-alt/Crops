@@ -48,7 +48,7 @@ function App() {
     setLoading(true);
     
     try {
-      const response = await fetch('http://localhost:8000/api/optimize', {
+      const response = await fetch('https://agritech-1euc.onrender.com/api/optimize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
